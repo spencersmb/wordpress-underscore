@@ -1,12 +1,12 @@
-var gulp        = require('gulp');
-var browserSync = require('browser-sync');
-var reload      = browserSync.reload;
-var sass        = require('gulp-sass');
-var autoprefixer = require('gulp-autoprefixer');
-var minifyCSS = require('gulp-minify-css');
-var rename = require("gulp-rename");
-var jshint = require('gulp-jshint');
-var concat = require('gulp-concat');
+var gulp        = require('gulp'),
+    browserSync = require('browser-sync'),
+    reload      = browserSync.reload,
+    sass        = require('gulp-sass'),
+    autoprefixer = require('gulp-autoprefixer'),
+    minifyCSS = require('gulp-minify-css'),
+    rename = require("gulp-rename"),
+    jshint = require('gulp-jshint'),
+    concat = require('gulp-concat');
 
 // browser-sync task for starting the server.
 gulp.task('browser-sync', function() {
